@@ -1,0 +1,100 @@
+body {
+	font-family: Arial, "Microsoft JhengHei";
+	font-size: 15px;
+	letter-spacing: 0px;
+	color: #fff;
+	background: url(../image/bg.jpg) center top no-repeat #000;
+	-webkit-text-size-adjust: none;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+h1 {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 50px 0 20px;
+}
+h2 {
+	font-weight: bold;
+}
+img {
+	display: block;
+	max-width: 100%;
+	margin: auto;
+}
+.mobile {
+	display: none !important;
+}
+#logo {
+	text-align: center;
+}
+#body {
+	overflow: hidden;
+	position: relative;
+	max-width: 1020px;
+	padding: 0 10px;
+	margin: auto;
+}
+#body .pdt {
+	overflow: hidden;
+	margin: auto;
+}
+#body .pdt dd {
+	float: left;
+	width: 200px;
+	padding: 1px;
+}
+#body .other {
+	margin-top: 50px;
+	text-align: center;
+}
+#body .other dd {
+	display: inline-block;
+}
+#body .other img {
+	max-height: 246px;
+	height: 23vw;
+}
+.footer {
+	overflow: hidden;
+}
+.footer span {
+	float: left;
+	margin-right: 30px;
+}
+/* Media queries
+-------------------------------------------------------------------------------*/
+@media screen and (max-width: 1020px) {
+	#body .pdt {
+		width: 800px;
+	}
+}
+@media screen and (max-width: 820px) {
+	#body .pdt {
+		width: 600px;
+	}
+}
+@media screen and (max-width: 620px) {
+	#body .pdt {
+		width: 400px;
+	}
+	#body .other dd {
+		display: block;
+	}
+	#body .other img {
+		max-height: none;
+		height: auto;
+		width: 100%;
+		max-width: 400px;
+	}
+	.footer span {
+		width: 100%;
+		margin-right: 0;
+	}
+}
+@media screen and (max-width: 420px) {
+	#body .pdt {
+		width: 200px;
+	}
+}
